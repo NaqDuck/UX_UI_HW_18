@@ -12,16 +12,28 @@
     height: 3188px;
     position: relative;
   }
-  
-  .landing-page .overlap-group {
+
+  .landing-page .card {
+    top: 1220px;
+    left: 70px;
     position: absolute;
-    width: 1512px;
-    height: 927px;
-    top: 195px;
-    left: 0;
-    border-radius: 9px;
+    width: 444px;
+    height: 606px; 
+    background-color: #000000;
+    border-radius: 14px;
+    overflow: hidden;
     border: 1px solid;
     border-color: #ffffff;
+    box-shadow: 0px 4px 4px #000040;
+
+  }
+  
+  .landing-page .overlap-group {
+    position: relative;
+    width: 400px;
+    height: 202px;
+    top: 3px;
+    left: 2px;
   }
   
   .landing-page .hi-i-m-naqiya {
@@ -39,12 +51,12 @@
   
   .landing-page .frame {
     position: absolute;
-    width: 328px;
-    height: 68px;
-    top: 557px;
-    left: 627px;
+    width: 79px;
+    height: 32px;
+    top: 490px;
+    left: 20px;
     background-color: #000000;
-    border-radius: 14px;
+    border-radius: 88px;
     overflow: hidden;
     border: 1px solid;
     border-color: #ffffff;
@@ -52,11 +64,11 @@
   
   .landing-page .text-wrapper {
     position: absolute;
-    width: 183px;
-    top: 14px;
-    left: 73px;
+    width: 223px;
+    top: 31px;
+    left: 20px;
     font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
+    font-weight: 700;
     color: #ffffff;
     font-size: 32px;
     letter-spacing: 0;
@@ -65,23 +77,42 @@
   }
   
   .landing-page .line {
-    top: 194px;
+    top: 136px;
     position: absolute;
-    width: 1512px;
+    width: 404px;
     height: 1px;
-    left: 0;
+    left: 20px;
     object-fit: cover;
   }
+
+  .landing-page .line-2 {
+    width: 399px;
+    height: 202px;
+    top: 0;
+    left: 1px;
+    position: absolute;
+    object-fit:cover;
+  }
+  .landing-page .line-3 {
+    width: 404px;
+    height: 1px;
+    top: 469px;
+    left: 20px;
+    position: absolute;
+    object-fit:cover;
+  }
+
+
   
   .landing-page .text-wrapper-2 {
     position: absolute;
-    width: 322px;
-    top: 95px;
-    left: 70px;
+    width: 148px;
+    top: 392px;
+    left: 20px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 24px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -122,15 +153,24 @@
   }
   
   .landing-page .text-wrapper-3 {
-    font-size: 20px;
+    position: absolute;
+    width: 143px;
+    top: 431px;
+    left: 20px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color:#ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal; 
   }
   
   .landing-page .div-wrapper {
     position: absolute;
-    width: 212px;
-    height: 68px;
-    top: 87px;
-    left: 998px;
+    width: 112px;
+    height: 32px;
+    top: 490px;
+    left: 272px;
     background-color: #000000;
     border-radius: 88px;
     overflow: hidden;
@@ -140,45 +180,79 @@
   
   .landing-page .text-wrapper-4 {
     position: absolute;
-    width: 127px;
-    top: 14px;
-    left: 43px;
+    width: 63px;
+    top: 6px;
+    left: 8px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
-    white-space: nowrap;
   }
-  
-  .landing-page .img {
-    top: 3020px;
+
+  .landing-page .text-wrapper-5 {
     position: absolute;
-    width: 1512px;
-    height: 1px;
+    width: 63px;
+    top: 6px;
+    left: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+
+
+  .landing-page .img{
+    width: 399px;
+    height: 201px;
+    top: 1px;
     left: 0;
+    position: absolute;
     object-fit: cover;
+  } 
+  
+  .landing-page .image {
+    top: 169px;
+    position: absolute;
+    width: 404px;
+    height: 208px;
+    left: 21px;
+    border-radius: 9px;
+    overflow: hidden; 
+    border: 1px solid;
+    border-color: #ffffff;
   }
   
   .landing-page .frame-2 {
     position: absolute;
-    width: 1512px;
-    height: 113px;
-    top: 3042px;
-    left: 0;
+    width: 102px;
+    height: 32px;
+    top: 538px;
+    left: 20px;
+    background-color: #000000;
+    border-radius: 88px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #ffffff;
   }
+  
   
   .landing-page .p {
     position: absolute;
-    width: 317px;
-    top: 18px;
-    left: 598px;
+    width: 204px;
+    top: 83px;
+    left: 20px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
   }
+
+  
   
